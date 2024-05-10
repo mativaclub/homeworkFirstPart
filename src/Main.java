@@ -35,6 +35,8 @@ public class Main {
             if (str.length() <= 3) {
                 resultArray[index] = str;
                 index++;
+            } else {
+                throw new RuntimeException("Пожалуйста введите корректную информацию");
             }
         }
 
